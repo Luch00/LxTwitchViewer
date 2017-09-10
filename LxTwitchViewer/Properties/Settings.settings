@@ -1,0 +1,25 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="LxTwitchViewer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Volume" Provider="PortableSettingsProvider" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="LastChannel" Provider="PortableSettingsProvider" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LastQuality" Provider="PortableSettingsProvider" Type="System.String" Scope="User">
+      <Value Profile="(Default)">best</Value>
+    </Setting>
+    <Setting Name="VlcArgs" Provider="PortableSettingsProvider" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;--file-caching=5000&lt;/string&gt;
+  &lt;string&gt;--live-caching=5000&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="StreamlinkArgs" Provider="PortableSettingsProvider" Type="System.String" Scope="User">
+      <Value Profile="(Default)">--hls-segment-threads=4</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
