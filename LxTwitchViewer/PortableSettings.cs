@@ -63,7 +63,7 @@ public class PortableSettingsProvider : SettingsProvider
         // Get appdata path for settings
         try
         {
-            return Directory.CreateDirectory(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), @"Luch\LXtory")).FullName;
+            return Directory.CreateDirectory(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), @"Luch\LxTwitchViewer")).FullName;
         }
         catch (Exception)
         {
